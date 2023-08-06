@@ -47,6 +47,24 @@
 .video-author{
     margin-bottom:  4px;
 }
+}
+.video-time,
+.video-time2,
+.video-time3 {
+    background-color: black;
+    color : white;
+    position: absolute;
+    bottom : 8px;
+    right: 5px;
+    font-family: Roboto,Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+}
 .video-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
@@ -69,27 +87,11 @@
     }
 }
     
-}
-.video-time,
-.video-time2,
-.video-time3 {
-    background-color: black;
-    color : white;
-    position: absolute;
-    bottom : 8px;
-    right: 5px;
-    font-family: Roboto,Arial;
-    font-size: 12px;
-    font-weight: 500;
-    padding-left: 4px;
-    padding-right: 4px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    border-radius: 2px;
 
 
 
-}
+
+
 
 
 
